@@ -17,6 +17,9 @@
 <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
+      *{
+        background-color: #24272b;
+      }
       .bd-placeholder-img {
         font-size: 1.125rem;
         text-anchor: middle;
@@ -37,6 +40,10 @@
         border: solid rgba(0, 0, 0, .15);
         border-width: 1px 0;
         box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+      .test {
+        border: solid rgba(240, 15, 15);
+        border-width: 1px;
       }
 
       .b-example-vr {
@@ -67,11 +74,18 @@
         white-space: nowrap;
         -webkit-overflow-scrolling: touch;
       }
+      .link-dark{
+        color: #727983 !important ;
+      }
+      .btn{
+        background-color: #fa043d;
+        color: white;
+      }
     </style>
 
     
     <!-- Custom styles for this template -->
-    <link href="headers.css" rel="stylesheet">
+    <!-- <link href="headers.css" rel="stylesheet"> -->
   </head>
   <body>
     
@@ -103,264 +117,120 @@
   <h1 class="visually-hidden">Headers examples</h1>
 
   <div class="container">
-    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
-        <span class="fs-4">Simple header</span>
-      </a>
-
-      <ul class="nav nav-pills">
-        <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-      </ul>
-    </header>
-  </div>
-
-  <div class="b-example-divider"></div>
-
-  <div class="container">
-    <header class="d-flex justify-content-center py-3">
-      <ul class="nav nav-pills">
-        <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-      </ul>
-    </header>
-  </div>
-
-  <div class="b-example-divider"></div>
-
-  <div class="container">
-    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
-      <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
-        <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
+    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4">
+      <a href="#" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+        <!-- <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg> -->
+        <img src="assets/brand/company logo.png" class="img-thumbnail" width="102.5" height="40" alt="...">
       </a>
 
       <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-        <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
-        <li><a href="#" class="nav-link px-2 link-dark">Features</a></li>
-        <li><a href="#" class="nav-link px-2 link-dark">Pricing</a></li>
-        <li><a href="#" class="nav-link px-2 link-dark">FAQs</a></li>
-        <li><a href="#" class="nav-link px-2 link-dark">About</a></li>
+        <li><a href="#" class="nav-link px-2 link-secondary">HOME</a></li>
+        <li><a href="#" class="nav-link px-2 link-dark">SERVICES</a></li>
+        <li><a href="#" class="nav-link px-2 link-dark">PORTFOLIO</a></li>
+        <li><a href="#" class="nav-link px-2 link-dark">RESUME</a></li>
+        <li><a href="#" class="nav-link px-2 link-dark">CONTACT</a></li>
       </ul>
 
       <div class="col-md-3 text-end">
-        <button type="button" class="btn btn-outline-primary me-2">Login</button>
-        <button type="button" class="btn btn-primary">Sign-up</button>
+        <button type="button" class="btn">DOWNLOAD CV</button>
       </div>
     </header>
   </div>
+  <div class="container">
+    <div class="row" >
+      <div class="col-8" style="color:red;">
+        <p style="color: #cfd5d9;">Hello <span style="color: #ed093d;">I'm</span></p>
+        <p style="color: #fff; font-size: 2.5rem; font-weight: bold;">Dlzar Mohammed</p>
+        <p  style="color:  #cfd5d9;">Flutter and Backend (API) developer. With little experience in front-end development.</p>
+        <p  style="color:  #7f8791; line-height: 2rem;">I'm software engineer, mobile application developer, and frontend web developer. 
+          I'm also big fan of AI and machine learning. Currently I'm working at Kurdistan24 Company for Media and Research Ltd. 
+          Also, I developed and created first locally football application. I also, created an application for Gulan Media magazine. 
+          I'm also a member of developer team that created Kurdistan football association (KFA) website. I'm also work at some part of 
+          Kurdistan24's website. I also, had experience with creating smart TV applications.
+        </p>
 
-  <div class="b-example-divider"></div>
+        <div class="container" style="margin-top: 3rem;">
+          <p style="color: #fff;">FIND ME ON</p>  
+        </div>
 
-  <header class="p-3 bg-dark text-white">
-    <div class="container">
-      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-          <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
-        </a>
-
-        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-          <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
-          <li><a href="#" class="nav-link px-2 text-white">Features</a></li>
-          <li><a href="#" class="nav-link px-2 text-white">Pricing</a></li>
-          <li><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
-          <li><a href="#" class="nav-link px-2 text-white">About</a></li>
-        </ul>
-
-        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-          <input type="search" class="form-control form-control-dark text-white bg-dark" placeholder="Search..." aria-label="Search">
-        </form>
-
-        <div class="text-end">
-          <button type="button" class="btn btn-outline-light me-2">Login</button>
-          <button type="button" class="btn btn-warning">Sign-up</button>
+        <div class="container">
+          <ul class="nav col-12 col-md-auto mb-2 mb-md-0">
+      
+              <li>
+                <a href="https://www.facebook.com/" target="_blank" class="nav-link px-2 link-secondary">      
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+                    <defs>
+                      <clipPath id="clip-path">
+                        <rect id="Rectangle_1" data-name="Rectangle 1" width="31" height="29" transform="translate(617 258)" fill="#fff"/>
+                      </clipPath>
+                    </defs>
+                    <g id="Group_5" data-name="Group 5" transform="translate(-547 -247)">
+                      <path id="Path_1" data-name="Path 1" d="M0,0H50V50H0Z" transform="translate(547 247)" fill="#1c1d24"/>
+                      <g id="Mask_Group_1" data-name="Mask Group 1" transform="translate(-60)" clip-path="url(#clip-path)">
+                        <path id="facebook" d="M28.045,14.588C28.045,6.53,21.767,0,14.023,0S0,6.53,0,14.589A14.428,14.428,0,0,0,11.829,29V18.8H8.271V14.589h3.562V11.373c0-3.655,2.095-5.674,5.3-5.674a20.766,20.766,0,0,1,3.139.285V9.571H18.5a2.07,2.07,0,0,0-2.284,2.28v2.737H20.1l-.62,4.215H16.214V29A14.428,14.428,0,0,0,28.045,14.588Z" transform="translate(618.479 258.001)" fill="#fff"/>
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+              </li>
+      
+              <li>
+                <a href="https://twitter.com/DlzarMohammad" target="_blank" class="nav-link px-2 link-dark">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+                    <g id="Group_1" data-name="Group 1" transform="translate(-610 -213)">
+                      <path id="Path_3" data-name="Path 3" d="M0,0H50V50H0Z" transform="translate(610 213)" fill="#1c1d24"/>
+                      <path id="twitter" d="M6.995,19.766c8.4,0,13-6.164,13-11.5,0-.172,0-.347-.008-.52a8.789,8.789,0,0,0,2.281-2.1,10.22,10.22,0,0,1-2.629.638,4.2,4.2,0,0,0,2.014-2.239,9.84,9.84,0,0,1-2.9.977,5.012,5.012,0,0,0-5.491-.8,3.9,3.9,0,0,0-2.3,4.487A13.61,13.61,0,0,1,1.542,4.49a3.781,3.781,0,0,0,1.417,5.4,5.092,5.092,0,0,1-2.068-.5v.055a4.208,4.208,0,0,0,3.663,3.965,5,5,0,0,1-1.2.142,5.061,5.061,0,0,1-.855-.07,4.539,4.539,0,0,0,4.268,2.805,9.952,9.952,0,0,1-5.678,1.733A9.923,9.923,0,0,1,0,17.961a14.263,14.263,0,0,0,6.995,1.8Z" transform="translate(623.866 226.243)" fill="#fff"/>
+                      <path id="Path_2" data-name="Path 2" d="M0,0H45V45H0Z" transform="translate(613 216)" fill="none"/>
+                    </g>
+                  </svg>
+                </a>
+              </li>
+      
+              <li>
+                <a href="https://www.instagram.com/dlzar_xandan/?hl=en" target="_blank" class="nav-link px-2 link-dark">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+                    <defs>
+                      <clipPath id="clip-path">
+                        <path id="Path_6" data-name="Path 6" d="M0,0H25V25H0Z" transform="translate(645 32)" fill="#fff"/>
+                      </clipPath>
+                    </defs>
+                    <path id="Path_3" data-name="Path 3" d="M0,0H50V50H0Z" fill="#1c1d24"/>
+                    <g id="Mask_Group_2" data-name="Mask Group 2" transform="translate(-632 -19)" clip-path="url(#clip-path)">
+                      <path id="instagram" d="M12.5,0C9.108,0,8.681.016,7.348.075A9.21,9.21,0,0,0,4.313.656,6.12,6.12,0,0,0,2.1,2.1,6.136,6.136,0,0,0,.656,4.313,9.156,9.156,0,0,0,.075,7.344C.016,8.68,0,9.1,0,12.5s.016,3.819.075,5.152a9.209,9.209,0,0,0,.581,3.034,6.4,6.4,0,0,0,3.655,3.656,9.177,9.177,0,0,0,3.034.581C8.68,24.984,9.1,25,12.5,25s3.819-.016,5.153-.075a9.228,9.228,0,0,0,3.036-.581,6.4,6.4,0,0,0,3.655-3.656,9.249,9.249,0,0,0,.581-3.034C24.984,16.32,25,15.9,25,12.5s-.016-3.82-.075-5.155a9.239,9.239,0,0,0-.581-3.033A6.134,6.134,0,0,0,22.9,2.1,6.111,6.111,0,0,0,20.688.656,9.2,9.2,0,0,0,17.652.075C16.317.016,15.894,0,12.5,0h0ZM11.38,2.253H12.5c3.337,0,3.733.011,5.05.072a6.927,6.927,0,0,1,2.322.43,3.878,3.878,0,0,1,1.438.936,3.862,3.862,0,0,1,.934,1.438,6.866,6.866,0,0,1,.43,2.32c.061,1.317.073,1.712.073,5.048s-.013,3.733-.073,5.05a6.915,6.915,0,0,1-.43,2.32,4.143,4.143,0,0,1-2.373,2.37,6.877,6.877,0,0,1-2.32.431c-1.317.059-1.712.073-5.05.073s-3.734-.014-5.052-.073a6.9,6.9,0,0,1-2.32-.431A3.872,3.872,0,0,1,3.692,21.3a3.875,3.875,0,0,1-.937-1.437,6.906,6.906,0,0,1-.43-2.32c-.059-1.317-.072-1.712-.072-5.052s.013-3.731.072-5.048a6.916,6.916,0,0,1,.431-2.322,3.878,3.878,0,0,1,.936-1.437A3.862,3.862,0,0,1,5.13,2.752,6.9,6.9,0,0,1,7.45,2.32c1.153-.053,1.6-.069,3.93-.07v0Zm7.794,2.075a1.5,1.5,0,1,0,1.5,1.5,1.5,1.5,0,0,0-1.5-1.5ZM12.5,6.081a6.42,6.42,0,1,0,6.42,6.42,6.419,6.419,0,0,0-6.42-6.42Zm0,2.252A4.167,4.167,0,1,1,8.334,12.5,4.167,4.167,0,0,1,12.5,8.333Z" transform="translate(645 32)" fill="#fff"/>
+                    </g>
+                  </svg>        
+                </a>
+              </li>
+      
+              <li>
+                <a href="https://www.linkedin.com/in/dlzar-mohammed-654b0013a/" target="_blank" class="nav-link px-2 link-dark">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+                    <g id="Group_6" data-name="Group 6" transform="translate(-739 -124)">
+                      <g id="Group_4" data-name="Group 4" transform="translate(76 -73)">
+                        <path id="Path_6" data-name="Path 6" d="M0,0H50V50H0Z" transform="translate(663 197)" fill="#1c1d24"/>
+                      </g>
+                      <path id="linkedin" d="M0,1.289A1.306,1.306,0,0,1,1.322,0H16.678A1.306,1.306,0,0,1,18,1.289V16.711A1.306,1.306,0,0,1,16.678,18H1.322A1.306,1.306,0,0,1,0,16.711ZM5.561,15.068V6.94H2.86v8.128ZM4.211,5.83a1.408,1.408,0,1,0,.018-2.808A1.408,1.408,0,1,0,4.193,5.83Zm5.522,9.238V10.529a1.834,1.834,0,0,1,.09-.659,1.478,1.478,0,0,1,1.386-.988c.978,0,1.368.745,1.368,1.838v4.348h2.7V10.406c0-2.5-1.332-3.658-3.109-3.658A2.684,2.684,0,0,0,9.732,8.09v.028H9.714l.018-.028V6.94h-2.7c.034.763,0,8.128,0,8.128Z" transform="translate(755 140)" fill="#fff"/>
+                    </g>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          
         </div>
       </div>
-    </div>
-  </header>
-
-  <div class="b-example-divider"></div>
-
-  <header class="p-3 mb-3 border-bottom">
-    <div class="container">
-      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
-          <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
-        </a>
-
-        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-          <li><a href="#" class="nav-link px-2 link-secondary">Overview</a></li>
-          <li><a href="#" class="nav-link px-2 link-dark">Inventory</a></li>
-          <li><a href="#" class="nav-link px-2 link-dark">Customers</a></li>
-          <li><a href="#" class="nav-link px-2 link-dark">Products</a></li>
-        </ul>
-
-        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-          <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
-        </form>
-
-        <div class="dropdown text-end">
-          <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
-            <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
-          </a>
-          <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
-            <li><a class="dropdown-item" href="#">New project...</a></li>
-            <li><a class="dropdown-item" href="#">Settings</a></li>
-            <li><a class="dropdown-item" href="#">Profile</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Sign out</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <div class="b-example-divider"></div>
-
-  <header class="py-3 mb-3 border-bottom">
-    <div class="container-fluid d-grid gap-3 align-items-center" style="grid-template-columns: 1fr 2fr;">
-      <div class="dropdown">
-        <a href="#" class="d-flex align-items-center col-lg-4 mb-2 mb-lg-0 link-dark text-decoration-none dropdown-toggle" id="dropdownNavLink" data-bs-toggle="dropdown" aria-expanded="false">
-          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
-        </a>
-        <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownNavLink">
-          <li><a class="dropdown-item active" href="#" aria-current="page">Overview</a></li>
-          <li><a class="dropdown-item" href="#">Inventory</a></li>
-          <li><a class="dropdown-item" href="#">Customers</a></li>
-          <li><a class="dropdown-item" href="#">Products</a></li>
-          <li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item" href="#">Reports</a></li>
-          <li><a class="dropdown-item" href="#">Analytics</a></li>
-        </ul>
-      </div>
-
-      <div class="d-flex align-items-center">
-        <form class="w-100 me-3" role="search">
-          <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
-        </form>
-
-        <div class="flex-shrink-0 dropdown">
-          <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser2" data-bs-toggle="dropdown" aria-expanded="false">
-            <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
-          </a>
-          <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser2">
-            <li><a class="dropdown-item" href="#">New project...</a></li>
-            <li><a class="dropdown-item" href="#">Settings</a></li>
-            <li><a class="dropdown-item" href="#">Profile</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Sign out</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <div class="container-fluid pb-3">
-    <div class="d-grid gap-3" style="grid-template-columns: 1fr 2fr;">
-      <div class="bg-light border rounded-3">
-        <br><br><br><br><br><br><br><br><br><br>
-      </div>
-      <div class="bg-light border rounded-3">
-        <br><br><br><br><br><br><br><br><br><br>
-      </div>
+      <div class="col-4" style="color:red;"><img src="assets/brand/dlzar.jpeg" class="img-thumbnail"></div> 
     </div>
   </div>
 
-  <div class="b-example-divider"></div>
 
-  <nav class="py-2 bg-light border-bottom">
-    <div class="container d-flex flex-wrap">
-      <ul class="nav me-auto">
-        <li class="nav-item"><a href="#" class="nav-link link-dark px-2 active" aria-current="page">Home</a></li>
-        <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Features</a></li>
-        <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Pricing</a></li>
-        <li class="nav-item"><a href="#" class="nav-link link-dark px-2">FAQs</a></li>
-        <li class="nav-item"><a href="#" class="nav-link link-dark px-2">About</a></li>
-      </ul>
-      <ul class="nav">
-        <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Login</a></li>
-        <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Sign up</a></li>
-      </ul>
-    </div>
-  </nav>
-  <header class="py-3 mb-4 border-bottom">
-    <div class="container d-flex flex-wrap justify-content-center">
-      <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none">
-        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
-        <span class="fs-4">Double header</span>
-      </a>
-      <form class="col-12 col-lg-auto mb-3 mb-lg-0" role="search">
-        <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
-      </form>
-    </div>
-  </header>
 
-  <div class="b-example-divider"></div>
 
-  <header>
-    <div class="px-3 py-2 bg-dark text-white">
-      <div class="container">
-        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-          <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
-            <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
-          </a>
 
-          <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
-            <li>
-              <a href="#" class="nav-link text-secondary">
-                <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#home"/></svg>
-                Home
-              </a>
-            </li>
-            <li>
-              <a href="#" class="nav-link text-white">
-                <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#speedometer2"/></svg>
-                Dashboard
-              </a>
-            </li>
-            <li>
-              <a href="#" class="nav-link text-white">
-                <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#table"/></svg>
-                Orders
-              </a>
-            </li>
-            <li>
-              <a href="#" class="nav-link text-white">
-                <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#grid"/></svg>
-                Products
-              </a>
-            </li>
-            <li>
-              <a href="#" class="nav-link text-white">
-                <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#people-circle"/></svg>
-                Customers
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="px-3 py-2 border-bottom mb-3">
-      <div class="container d-flex flex-wrap justify-content-center">
-        <form class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto" role="search">
-          <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
-        </form>
 
-        <div class="text-end">
-          <button type="button" class="btn btn-light text-dark me-2">Login</button>
-          <button type="button" class="btn btn-primary">Sign-up</button>
-        </div>
-      </div>
-    </div>
-  </header>
+  <!-- <div class="container" style="background-color: #212326; height: 5px; position: absolute; bottom: 100px;"> -->
+    <div class="container" style="background-color: #212326; height: 5px; margin-top: 1rem;">
+  </div>
 
-  <div class="b-example-divider"></div>
 </main>
 
 
