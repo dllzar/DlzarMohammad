@@ -95,3 +95,9 @@
     font-size: 2rem;
     font-weight: bold;
   }
+
+  .personal-info{
+    color: aqua;
+    background-color: #1a2026;
+    padding: 100px;
+  }
