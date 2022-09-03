@@ -82,6 +82,7 @@
   }
   p{
     color: white;
+    
   }
   .exprience-text{
     color: #7f8791;
@@ -100,4 +101,54 @@
     color: aqua;
     background-color: #1a2026;
     padding: 100px;
+  }
+
+  .resume-profile{
+    background-color: #1a2024;
+    border-end-start-radius: 30px;
+    border-start-start-radius: 30px;
+  }
+  .resume-image-profile{
+    text-align: center;
+    background-color: #1a2024;
+    margin-top: 2rem;
+  }
+
+  .resume-profile-name{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #1a2024;
+    text-align: center;
+  }
+
+  .resume-devider{
+    background-color: #263138;
+    height: 5px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .resume-p{
+    background-color: #1a2024;
+    text-align: justify;
+    font-size: 0.9rem;
+  }
+
+  .resume-p-social-media{
+    background-color: #1a2024;
+    text-align: center;
+    font-size: 0.5rem;
+  }
+
+  .resume-p-contact-me{
+    background-color: #1a2024;
+    text-align: center;
+    font-size: 0.7rem;
+  }
+
+  .resume-info{
+    background-color: #1a2024;
+    border-end-end-radius: 30px;
+    border-start-end-radius: 30px; 
   }
