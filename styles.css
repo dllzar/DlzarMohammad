@@ -129,16 +129,26 @@
     margin-bottom: 1rem;
   }
 
+  .social-media-devider{
+    margin-top: 1rem;
+  }
+
   .resume-p{
     background-color: #1a2024;
     text-align: justify;
     font-size: 0.9rem;
   }
 
-  .resume-p-social-media{
+  .resume-p-social-media-header{
     background-color: #1a2024;
     text-align: center;
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+
+  .resume-p-social-media-link{
     font-size: 0.5rem;
+    font-weight: bold;
   }
 
   .resume-p-contact-me{
@@ -151,4 +161,13 @@
     background-color: #1a2024;
     border-end-end-radius: 30px;
     border-start-end-radius: 30px; 
+  }
+
+  .width-height-social-icons{
+    width:  80px;
+    height: 80px;
+    background-color: #1c1d24  !important ;
+  }
+  .social-media-div{
+    background-color: #1a2024 !important ;
   }
